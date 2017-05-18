@@ -37,5 +37,6 @@
         </div>
       </div>
     </div>
+    <?php $this->load->view('footerjs'); ?>
   </body>
 </html>
