@@ -20,6 +20,11 @@ $base  = "http://".$_SERVER['HTTP_HOST'];
 $base .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
 $config['base_url'] = $base;
 
+$config['css_path'] = $config['base_url'].'/assets/gentelella/css/';
+$config['js_path']  = $config['base_url'].'assets/gentelella/js/';
+$config['img_path'] = $config['base_url'].'assets/gentelella/images/';
+$config['vendors'] = $config['base_url'].'assets/';
+
 /*
 |--------------------------------------------------------------------------
 | Index File
